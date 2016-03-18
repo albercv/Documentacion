@@ -1,0 +1,59 @@
+baseurl = "http://localhost:1313/"
+languageCode = "en-us"
+title = "Documentacion"
+theme = "blackburn"
+pygmentStyle = "native"
+
+
+canonifyurls = true
+paginate = 5
+
+[indexes]
+	tag = "tags"
+	topic = "topics"
+
+[params]
+	subtitle = "Documentacion, instalaciones y más"
+	brand = "OSOCO"
+	highlight = "default"
+	dateFormat = "02 Jan 2006, 15:04"
+
+[menu]
+[[menu.main]]
+	name = "Home"
+	pre = "<i class='fa fa-linux fa-fw'></i>"
+	weight = 0
+	identifier = "home"
+	url = "/"
+[[menu.main]]
+	name = "Grails"
+	pre = "<i class='fa fa-desktop fa-fw'></i>"
+	weight = 1
+	identifier = "post"
+	url = "/post/grails"
+[[menu.main]]
+	name = "Hugo"
+	pre = "<i class='fa fa-desktop fa-fw'></i>"
+	weight = 1
+	identifier = 1
+	url = "/post/hugo"
+[[menu.main]]
+	name = "Cucumber"
+	pre = "<i class='fa fa-desktop fa-fw'></i>"
+	weight = 2
+	url = "/post/cucumber"
+[[menu.main]]
+	name = "Groovy"
+	pre = "<i class='fa fa-language fa-fw'></i>"
+	weight = 5
+	url = "/post/groovy"
+[[menu.main]]
+	name = "Java"
+	pre = "<i class='fa fa-language fa-fw'></i>"
+	weight = 4
+	url = "/post/java"
+[[menu.main]]
+	name = "Intellij"
+	pre = "<i class='fa fa-desktop fa-fw'></i>"
+	weight = 3
+	url = "/post/intellij"
